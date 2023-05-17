@@ -119,7 +119,7 @@ const CampsiteInfoScreen = ({ route }) => {
             <View style={{ margin: 10 }}>
               <Button
                 onPress={() => {
-                  setShowModal(!ShowModal);
+                  setShowModal(!showModal);
                   resetForm();
                 }}
                 color="#808080"
